@@ -41,7 +41,7 @@ vowel = str(input())
 ans = 0
 i = 0
 
-while i<len(vowel):
+while i < len(vowel):
     c = vowel[i]
     if c =='a' or c =='e' or c =='i' or c =='o' or c =='u':
         ans +=1
